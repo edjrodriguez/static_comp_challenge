@@ -14,6 +14,30 @@
 
  .parent{
  }
+ .container {
+    display: flex;
+    flex-direction: row;
+  } 
+  .search-field {
+    /* width: 60%; */
+    /* padding: 10px 35px 10px 15px; */
+    border: none;
+    border-radius: 100px;
+    
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    /* margin-left: -33px; */
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
 
 nav {
     background: #354053;
@@ -35,12 +59,19 @@ nav {
 
 .div5 { 
     grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+    flex-direction: row;
+
 }
 .div6 { 
     grid-area: 2 / 2 / 3 / 3; 
 }
+.stats-description{
+    background: #edf2f6;
+}
 .div7 {
     grid-area: 3 / 2 / 4 / 3; 
+    
 }
 .div8 { 
     grid-area: 4 / 2 / 6 / 3; 
